@@ -31,7 +31,9 @@ public class Gemi
  driver.findElement(By.xpath("//a[@href='/timesheets/submit']")).click();
  Thread.sleep(3000);
  driver.findElement(By.xpath("//a[text()=' New Timesheet']")).click();
- Thread.sleep(3000);
+ Thread.sleep(6000);
+ driver.findElement(By.xpath("//div[@class='ant-picker-input']")).click();
+ driver.findElement(By.xpath("//input[@title='2022-50th']")).click();
  driver.findElement(By.xpath("//button[@class='ant-btn gx-mt-3 addBtn ant-btn-text']")).click();
  driver.findElement(By.xpath("//span[@class='ant-cascader-picker']")).click();
  Thread.sleep(3000);
@@ -90,7 +92,9 @@ Robot r = new Robot();
 r.keyPress(KeyEvent.VK_ENTER);
 r.keyRelease(KeyEvent.VK_ENTER);
 driver.findElement(By.xpath("//button[@type='submit']")).click();
-driver.findElement(By.xpath("//span[text()='OK']")).click();
 
+Thread.sleep(2000);
+driver.findElement(By.xpath("/html/body/div[4]/div/div/div/div/div[2]/ul/li/button")).click();
+Thread.sleep(2000);
  }
 }
