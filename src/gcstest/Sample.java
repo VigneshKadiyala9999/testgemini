@@ -82,5 +82,8 @@ public class Sample
 	r.keyPress(KeyEvent.VK_ENTER);
 	r.keyRelease(KeyEvent.VK_ENTER);
 	r.keyRelease(KeyEvent.VK_ENTER);
+		r.keyPress(KeyEvent.VK_ENTER);
+	r.keyRelease(KeyEvent.VK_ENTER);
+	r.keyRelease(KeyEvent.VK_ENTER);
 	}
 }
