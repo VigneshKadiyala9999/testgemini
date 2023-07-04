@@ -81,6 +81,6 @@ public class Sample
 	Robot r = new Robot();
 	r.keyPress(KeyEvent.VK_ENTER);
 	r.keyRelease(KeyEvent.VK_ENTER);
-	
+	r.keyRelease(KeyEvent.VK_ENTER);
 	}
 }
