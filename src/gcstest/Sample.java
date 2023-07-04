@@ -82,7 +82,8 @@ public class Sample
 	r.keyPress(KeyEvent.VK_ENTER);
 	r.keyRelease(KeyEvent.VK_ENTER);
 	Thread.sleep(9000);
-	
-	 
+	Thread.sleep(9000);
+	Thread.sleep(9000);
+	Thread.sleep(9000);
 	}
 }
